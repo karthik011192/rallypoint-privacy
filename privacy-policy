@@ -1,0 +1,62 @@
+Privacy Policy — Rallypoint
+Last updated: May 2026
+
+Rallypoint ("the app", "we", "our") is a badminton, pickleball, and table tennis scorekeeper for Apple Watch and iPhone, developed by Karthik ("I", "me"). This policy explains what data the app collects, how it is used, and your rights.
+
+1. Data We Collect
+Match Data
+Match scores, game results, player names, and sport type are stored locally on your device using Apple's SwiftData framework. If you are signed into iCloud, this data is also synced to your private iCloud account via CloudKit. This data never leaves Apple's infrastructure and is never accessible to me.
+
+Health Data (Apple Watch)
+When workout tracking is enabled, the app reads heart rate and active calories from your Apple Watch during match sessions via HealthKit. This data is:
+
+Displayed to you during and after a match
+Optionally saved to Apple Health as a workout session
+Never transmitted to any server I control
+Never shared with third parties
+Analytics
+The app uses PostHog to collect anonymous usage events — for example, when a match is started, a purchase is made, or a feature is used. No personally identifiable information (name, email, health data, match scores) is included in these events. PostHog data is stored on PostHog's EU cloud servers.
+
+Purchase & Subscription Data
+Subscription status is verified directly through Apple's StoreKit framework. I do not see or store your payment details. Apple handles all billing.
+
+Trial Tracking
+To support the free trial, the app stores your first launch date in your device's Keychain and tracks match count in iCloud Key-Value Storage. This data stays on your device and iCloud account and is not transmitted to me.
+
+2. Data We Do NOT Collect
+Your name, email address, or any contact information
+Your location
+Your device identifiers (IDFA, IDFV)
+Photos or camera access
+Any data from third-party accounts
+3. Data Sharing
+We do not sell, rent, or share your personal data with any third party for advertising or marketing purposes.
+
+Data is shared only in these limited cases:
+
+Apple / iCloud — match data synced via CloudKit stays within your Apple account
+Apple Health — workout data written only if you grant HealthKit permission
+PostHog — anonymous event analytics only (no PII)
+Legal obligation — if required by law
+4. Data Retention & Deletion
+All match data is stored on your device and in your iCloud account. You can delete all data at any time by:
+
+Deleting the app from your iPhone — removes all local data
+Going to Settings → [Your Name] → iCloud → Manage Account Storage → Rallypoint → Delete Data — removes iCloud data
+5. Children's Privacy
+Rallypoint is not directed at children under 13. We do not knowingly collect data from children. If you believe a child has provided data, please contact me and I will delete it promptly.
+
+6. Third-Party Services
+Apple HealthKit — health data framework
+Apple CloudKit — iCloud sync
+PostHog — anonymous analytics
+7. Your Rights
+Depending on your location, you may have the right to access, correct, or delete data associated with your use of the app. Since I do not hold your personal data on any server I control, most requests are fulfilled by managing your iCloud and device data directly. For any questions, contact me at karthik011192@gmail.com.
+
+8. Changes to This Policy
+If this policy changes materially, the updated version will be posted at this URL with a new "Last updated" date. Continued use of the app after changes constitutes acceptance.
+
+9. Contact
+Karthik
+karthik011192@gmail.com
+
